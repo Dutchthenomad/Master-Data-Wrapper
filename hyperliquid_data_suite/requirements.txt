@@ -1,0 +1,12 @@
+# Requirements for Hyperliquid Data Collection Suite
+# These are the minimum dependencies required to run the suite.
+
+requests>=2.31.0
+pandas>=2.2.0
+pandas_ta>=0.3.14b0
+websockets>=10.3
+eth-account>=0.8.0  # For future authentication features
+python-dotenv>=1.0.0  # For environment variable management
+ccxt>=4.0.0  # For standardized exchange access including Coinbase
+
+# Add any additional dependencies as needed for future updates.

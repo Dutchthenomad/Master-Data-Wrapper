@@ -1,0 +1,53 @@
+# Hyperliquid Data Collection Suite .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+env.bak/
+venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive data
+secrets.json
+config.json
+private_key*
+api_key*
+*.pem
+hyperliquid_data_suite/config/credentials.py
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local test data
+test_data/
+test_results.txt
